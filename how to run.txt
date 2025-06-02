@@ -1,0 +1,38 @@
+Here’s a step-by-step guide to run your Groq AI Assistant code:
+
+Step 1: Install Required Libraries
+bash
+pip install -r requirements.txt
+
+Step 2: Get Groq API Key
+Go to Groq Cloud
+
+Sign up/log in (free tier available)
+Navigate to API Keys → Create API Key
+Copy your key (e.g., gsk_xxxxxxxx)
+
+Step 3: Configure Environment
+Create a .env file in your project folder
+Add this line to the file:
+
+bash
+GROQ_API_KEY=your_api_key_here
+
+Step 4: Run the App
+bash
+streamlit run app.py
+
+Step 5: Use the Chatbot
+In the sidebar:
+
+Paste your Groq API Key
+
+Upload PDF/Excel/text files (optional)
+
+Start chatting in the main interface!
+
+
+
+
+
+
